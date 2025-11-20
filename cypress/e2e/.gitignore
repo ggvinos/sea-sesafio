@@ -1,0 +1,10 @@
+
+# Pasta que contém todas as bibliotecas instaladas (muito grande)
+/node_modules
+
+# Logs do NPM
+npm-debug.log
+npm-debug.log.*
+yarn-error.log
+yarn-error.log.*
+
