@@ -120,9 +120,11 @@
 * **Evidência:**
 
   * **Versões Web:**
-![alt text](<Prints/Bug Visual Em vraios navegadores.gif>)
+
+  ![alt text](<Prints/Bug Visual Em vraios navegadores.gif>)
 
   * **Versões Mobile:**
+  
   ![alt text](<Prints/Mobile quebrado.jpg>)
 
 ## 🟡 Melhorias e Validações (Sugestões)
