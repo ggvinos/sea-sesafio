@@ -107,6 +107,23 @@
 ![alt text](Prints/ScrollDefeito.gif)
 
 ---
+### [BUG-008] Falha Crítica na Responsividade e Cross-Browser (UI Quebrada)
+
+* **Severidade:** Alta
+* **Prioridade:** Alta
+* **Descrição:** Em várias resoluções de desktop (ao redimensionar a janela) e em dispositivos móveis (testado em iPhone XR e S24), o layout da aplicação quebra. Elementos se sobrepõem, textos são cortados, e a usabilidade se torna impossível no mobile.
+* **Passos para reproduzir (Mobile):**
+  1. Acessar a aplicação em um dispositivo móvel (ou simular a resolução de celular no Chrome DevTools).
+  2. Navegar para a tela de Cadastro de Funcionário.
+* **Resultado Atual:** Elementos não respeitam a hierarquia e o *viewport*, resultando em sobreposição total e impossibilidade de interagir.
+* **Resultado Esperado:** O layout deve se adaptar ao tamanho da tela (ser *responsivo*), organizando os elementos verticalmente em telas menores.
+* **Evidência:**
+
+  * **Versões Web:**
+![alt text](<Prints/Bug Visual Em vraios navegadores.gif>)
+
+  * **Versões Mobile:**
+  ![alt text](<Prints/Mobile quebrado.jpg>)
 
 ## 🟡 Melhorias e Validações (Sugestões)
 
