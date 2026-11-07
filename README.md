@@ -1,5 +1,7 @@
 # Desafio Analista de Testes - SEA Tecnologia
 
+[![cypress](https://github.com/ggvinos/sea-sesafio/actions/workflows/cypress.yml/badge.svg)](https://github.com/ggvinos/sea-sesafio/actions/workflows/cypress.yml)
+
 ## 1. Sumário Executivo e Estratégia de Avaliação
 
 O objetivo deste desafio foi avaliar a qualidade do módulo de **Admissão e Gestão de Funcionários** em um sistema web fictício. A avaliação foi conduzida sob o escopo de um Analista de Testes Pleno, cobrindo o fluxo principal de cadastro (com e sem EPIs) e a gestão pós-cadastro.
